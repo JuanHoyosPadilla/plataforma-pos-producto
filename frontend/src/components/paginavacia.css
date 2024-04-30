@@ -1,0 +1,14 @@
+.container-sad {
+    
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-size: 60px;
+    gap: 1rem;
+    margin-top: 2rem;
+}
+
+.container-sad h3 {
+    font-size: 20px;
+}

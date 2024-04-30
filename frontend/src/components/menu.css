@@ -1,0 +1,17 @@
+nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 10px;
+    height: 70px;
+    
+}
+
+nav span {
+    font-size: 25px;
+    font-weight: 900;
+}
+
+ul {
+    list-style: none;
+}
