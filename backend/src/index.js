@@ -30,7 +30,7 @@ app.post('/productos', async (req,res) => {
   // validar los datos
   if(!nombre || !precio || !cantidad){
     return res.status(400).json({error: 'Faltan datos del producto'})
-  }
+  } 
 
   const [result] = await pool.query(
     "INSERT  INTO productos (nombre, precio, cantidad) VALUES(?,?,?)",
