@@ -8,6 +8,7 @@
     "backend": "nodemon backend/src/index.js",
     "frontend": "cd ./frontend && npm run dev",
     "dev": "concurrently --kill-others-on-fail \"npm run backend\" \"cd ./frontend && npm run dev\""
+    
 
   },
   "devDependencies": {
